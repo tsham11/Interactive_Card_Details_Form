@@ -1,0 +1,33 @@
+.complete {
+  width: 381px;
+  height: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 35px 0 16px;
+  color: #21092F;
+  font-size: 28px;
+  letter-spacing: 3.422px;
+}
+
+#compl-icon {
+  width: 80px;
+  height: 80px;
+}
+
+#dtl {
+  margin-bottom: 34px;
+  color: #8F8694;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width:1200px) {
+  .complete {
+    width: 327px;
+    height: 291px;
+  }
+}

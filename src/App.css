@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 127px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-image: url('./assets/bg-main-desktop.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width:1200px) {
+  #root {
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 48.4px;
+  }
+
+  body {
+    background-image: url('./assets/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 240px;
+  }
+}
